@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\microservice_test\\src\\MicroTest\\MicroTest.csproj": {}
+    "D:\\microservice_test\\src\\MicroTest\\MicroTest.csproj": {}
   },
   "projects": {
-    "d:\\microservice_test\\src\\MicroTest\\MicroTest.csproj": {
+    "D:\\microservice_test\\src\\MicroTest\\MicroTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\microservice_test\\src\\MicroTest\\MicroTest.csproj",
+        "projectUniqueName": "D:\\microservice_test\\src\\MicroTest\\MicroTest.csproj",
         "projectName": "MicroTest",
-        "projectPath": "d:\\microservice_test\\src\\MicroTest\\MicroTest.csproj",
+        "projectPath": "D:\\microservice_test\\src\\MicroTest\\MicroTest.csproj",
         "packagesPath": "C:\\Users\\CUONGPQ\\.nuget\\packages\\",
-        "outputPath": "d:\\microservice_test\\src\\MicroTest\\obj\\",
+        "outputPath": "D:\\microservice_test\\src\\MicroTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
